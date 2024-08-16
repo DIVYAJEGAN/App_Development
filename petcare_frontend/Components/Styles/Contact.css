@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #e7169b; /* Set background color for main content */
+}
+
+body {
+  background-color: #667162;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contact-container {
+  flex: 1;
+  padding: 80px 20px;
+  background-color: #dc8a67; /* Add background color for the contact page */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #04382f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-header {
+  font-weight: bold;
+  color: #462b13;
+}
+
+.contact-form {
+  background-color: #7e9196;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.contact-form-header {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.contact-submit-button {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.contact-submit-button:hover {
+  background-color: #388e3c;
+}
+
+.MuiAlert-root {
+  margin-top: 20px;
+}
+
+/* Ensure footer is fixed at the bottom */
+footer {
+  background-color: #f0f4f8;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}

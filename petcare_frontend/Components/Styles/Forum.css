@@ -1,0 +1,116 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #2ed5f2;
+  margin: 0;
+  padding: 0;
+}
+
+.forum-container {
+  
+  padding: 20px;
+  background-color: #f1b78b;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-post-form {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #a0c4bf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.new-post-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.text-field {
+  margin-bottom: 20px;
+  background-color: #dfecf0;
+}
+
+.file-input {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  display: block;
+  margin-top: 20px;
+}
+
+.forum-list {
+  margin-top: 20px;
+}
+
+.forum-list-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.forum-post {
+  padding: 20px;
+  background: #daefb5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.forum-post-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.forum-post-content {
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+}
+
+.uploaded-image {
+  max-width: 50%; 
+  max-height: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.reply-section {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.reply {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.reply-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reply-text-field {
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.reply-button {
+  align-self: flex-start;
+}
+.forum-post img{
+  width: -200%;
+}

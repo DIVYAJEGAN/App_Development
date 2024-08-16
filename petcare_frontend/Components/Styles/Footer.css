@@ -1,0 +1,21 @@
+/* src/Components/Styles/Footer.css */
+
+.home-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e9ecef;
+}
+
+@media (max-width: 768px) {
+  .home-footer {
+    padding: 15px;
+    font-size: 0.9rem; /* Slightly smaller font on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .home-footer {
+    padding: 10px;
+    font-size: 0.8rem; /* Further reduction for mobile devices */
+  }
+}

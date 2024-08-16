@@ -1,0 +1,126 @@
+:root {
+  --green-seaweed: rgba(2, 128, 144, 1);
+  --blue-queen: rgba(69, 105, 144, 1);
+  --red-fire: rgba(244, 91, 105, 1);
+  --text-light: rgba(255, 255, 255, 0.8);
+  --text-dark: rgba(0, 0, 0, 0.8);
+  --red-fire-dark: rgba(204, 77, 85, 1); /* Darker shade for hover */
+}
+
+.login-container {
+  background-color: var(--red-fire); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  padding: 0 20px; /* Prevents overflow on small screens */
+  box-sizing: border-box;
+}
+
+.login-form {
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px; 
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.login {
+  overflow: hidden;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(var(--green-seaweed), 0.2);
+}
+
+.login > input {
+  font-family: 'Asap', sans-serif;
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: white;
+  width: 100%;
+  border: 1px solid #ddd; /* Add border for better visibility */
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.login > button {
+  font-family: 'Asap', sans-serif;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--red-fire);
+  transition: background-color 300ms;
+}
+
+.login > button:hover {
+  background-color: var(--red-fire-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 12px;
+  display: block;
+  margin-top: 10px;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text-dark);
+}
+
+.signup-link a {
+  color: var(--blue-queen);
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .login-form {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .login {
+    padding: 20px 15px;
+  }
+
+  .login > input, .login > button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .signup-link {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .login > input, .login > button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .signup-link {
+    font-size: 12px;
+  }
+}
